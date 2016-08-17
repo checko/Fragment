@@ -11,14 +11,16 @@
     tools:context="pp.checko.fragment.MainActivity">
 
     <fragment
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="match_parent"
         android:id="@+id/FragmentResult"
         android:name="pp.checko.fragment.FragmentResult"
         />
 
     <fragment
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="match_parent"
         android:id="@+id/FragmentGame"
         android:name="pp.checko.fragment.FragmentGame"
